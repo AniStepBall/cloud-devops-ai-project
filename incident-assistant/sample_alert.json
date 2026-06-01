@@ -1,7 +1,8 @@
 {
-    "alarm_name": "week8-high-cpu",
-    "metric": "CPUUtilization",
-    "threshold": "70%",
-    "observed_value": "91%",
-    "resource": "ecs-service/week8-fargate-service"
+  "alarm_name": "week8-high-cpu",
+  "metric": "CPUUtilization",
+  "threshold": "70%",
+  "observed_value": "91%",
+  "resource": "ecs-service/week8-fargate-service",
+  "region": "ca-central-1"
 }
