@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return {
-        "message": "Cloud DevOps AI Capstone",
+        "message": "Cloud DevOps AI Project",
         "hostname": socket.gethostname(),
         "environment": os.getenv("APP_ENV", "dev"),
         "version": os.getenv("APP_VERSION", "1.0.0")
